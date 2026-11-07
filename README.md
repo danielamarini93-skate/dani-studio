@@ -1,16 +1,11 @@
 # dani-studio
 
-Dani's personal layer for Claude Code: **who I am, how I work, and reusable
-skills and templates**, shared by every client project.
+Dani's personal layer for Claude Code: **who I am, how I work, and the skills
+and templates I reuse**, shared by every client project.
 
 ```
 CLAUDE.md                 who I am, my process, principles, working agreements
-.claude/skills/
-  brief/                  /brief             project brief in my format
-  strategy/               /strategy          UX/content strategy from the brief
-  ux-audit/               /ux-audit          audit a live site
-  personas/               /personas          personas / proto-personas
-  competitor-review/      /competitor-review benchmark competitors
+.claude/skills/           my skills (added as I build them)
 templates/                brief, strategy, research plan
 scripts/install-local.sh  link all of this into ~/.claude on my computer
 ```

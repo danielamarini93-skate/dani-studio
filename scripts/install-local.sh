@@ -18,6 +18,7 @@ link() {
 }
 
 link "$REPO/CLAUDE.md" "$TARGET/CLAUDE.md"
+shopt -s nullglob
 for skill in "$REPO"/.claude/skills/*/; do
   name="$(basename "$skill")"
   link "${skill%/}" "$TARGET/skills/$name"

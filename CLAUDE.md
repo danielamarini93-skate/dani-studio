@@ -14,9 +14,9 @@ belong in that project's own repo, never here.
 My process, in order. Don't jump ahead: if an earlier stage is missing,
 say so and offer to do it first.
 
-1. **Brief** — goals, audience, constraints, success metrics (`/brief`)
-2. **Strategy** — positioning, priorities, what we will and won't do (`/strategy`)
-3. **Research** — audit of what exists, competitors, users (`/ux-audit`, `/competitor-review`, `/personas`)
+1. **Brief** — goals, audience, constraints, success metrics
+2. **Strategy** — positioning, priorities, what we will and won't do
+3. **Research** — audit of what exists, competitors, users
 4. **Information architecture** — sitemap, content model, navigation
 5. **Wireframes** — structure and flows, low fidelity
 6. **UI** — visual design, design system, handoff
@@ -60,7 +60,8 @@ Claude: when one of these comes up, ask Dani and then update this file.
 ## Keeping this memory up to date
 
 - When Dani states a lasting preference about *how they work*, add it here
-  (or to the relevant skill) and commit it to the `dani-studio` repo.
+  and commit it to the `dani-studio` repo.
 - When it's about a *specific client*, put it in that project's repo instead.
-- Keep this file short. Move long reference material into `templates/` or a
-  skill.
+- Keep this file short. Move long reference material into `templates/`.
+- Skills live in `.claude/skills/`. Dani builds them as needed; don't add
+  skills unless Dani asks.
