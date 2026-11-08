@@ -23,22 +23,24 @@ Each has (or will have) its own repo holding its project memory.
 
 ## How I work: UX/UI projects
 
-My process is **design thinking** in three stages. Don't skip ahead: if an
-earlier stage is missing, say so and offer to do it first.
+My process is **design thinking** in three stages, each a command. Don't skip
+ahead: if an earlier stage is missing, say so and offer to do it first.
+Each command asks me questions, writes a plan, waits for my OK, then follows it.
 
-1. **Design thinking**: brief → strategy → research.
-   *Output:* a written summary in the project repo **plus a quick HTML
-   concept published as an artifact**, so the idea can be seen, not just read.
-2. **Design build**: turn the concept into the real design in
-   **Claude Design**, following the project's design system, using the
-   design skills (frontend-design, ui-ux-pro-max, bencium, etc.) to perfect
-   layout, type, colour and detail.
-3. **Design review**: double-check everything is done well: brief and
-   strategy met, design system followed, accessibility (WCAG 2.2 AA),
-   responsive at phone width, content and polish. End with a ranked fix list.
+1. **`/design-thinking`**: brief → strategy → research (competitor analysis,
+   Mobbin research via Claude in Chrome, and sometimes a preliminary audit).
+   *Output:* written summary + **a quick HTML concept as an artifact**.
+2. **`/design-build`**: the concept becomes the real design in
+   **Claude Design**, following the project's design system, refined with the
+   design skills.
+3. **`/design-review`**: double-check brief fit, visual & design system,
+   accessibility, and SEO & performance for live sites. Ends with a ranked fix list.
 
-Save each stage's written output in the project repo under `docs/<stage>/`
-so decisions are traceable.
+Outputs are saved in the project repo under `docs/design-thinking/`,
+`docs/design-build/` and `docs/design-review/`.
+
+**Design systems live in Claude Design**, one per client. Each project's
+`CLAUDE.md` links to it under "Design system".
 
 ## Other kinds of projects
 

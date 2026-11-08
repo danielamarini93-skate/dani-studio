@@ -5,7 +5,8 @@ and templates I reuse**, shared by every client project.
 
 ```
 CLAUDE.md                 who I am, my process, principles, working agreements
-.claude/skills/           skills (third-party ones listed in SOURCES.md)
+.claude/skills/           my commands (design-thinking, design-build, design-review)
+                          + third-party skills (listed in SOURCES.md)
 .claude/agents/           helper agents used by the SEO skills
 templates/                brief, strategy, research plan
 scripts/install-local.sh  link all of this into ~/.claude on my computer
