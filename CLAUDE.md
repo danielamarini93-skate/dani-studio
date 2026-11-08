@@ -6,23 +6,46 @@ belong in that project's own repo, never here.
 
 ## Who I am
 
-- **Dani** — UX/UI designer.
-- I lead redesigns end to end, from brief and strategy through to UI.
+- **Dani**, UX/UI designer, based in London.
+- Full-time job at **Credentially**. That work does *not* happen in this
+  account.
+- This account is for my **side projects and experiments**, in my free
+  time. Expect variety, quick tries and learning along the way.
 
-## How I work
+## Clients and side projects
 
-My process, in order. Don't jump ahead: if an earlier stage is missing,
-say so and offer to do it first.
+Each has (or will have) its own repo holding its project memory.
 
-1. **Brief** — goals, audience, constraints, success metrics
-2. **Strategy** — positioning, priorities, what we will and won't do
-3. **Research** — audit of what exists, competitors, users
-4. **Information architecture** — sitemap, content model, navigation
-5. **Wireframes** — structure and flows, low fidelity
-6. **UI** — visual design, design system, handoff
+- **Hyped Up**: my partner company.
+- **Whisper**: radio guide company in Italy. I design their websites and apps.
+- **Natalia Cattelani**: blogger and online content creator. I help with her
+  digital presence.
 
-Each stage produces a written artifact saved in the project repo
-(suggested location: `docs/<stage>/`), so decisions are traceable.
+## How I work: UX/UI projects
+
+My process is **design thinking** in three stages. Don't skip ahead: if an
+earlier stage is missing, say so and offer to do it first.
+
+1. **Design thinking**: brief → strategy → research.
+   *Output:* a written summary in the project repo **plus a quick HTML
+   concept published as an artifact**, so the idea can be seen, not just read.
+2. **Design build**: turn the concept into the real design in
+   **Claude Design**, following the project's design system, using the
+   design skills (frontend-design, ui-ux-pro-max, bencium, etc.) to perfect
+   layout, type, colour and detail.
+3. **Design review**: double-check everything is done well: brief and
+   strategy met, design system followed, accessibility (WCAG 2.2 AA),
+   responsive at phone width, content and polish. End with a ranked fix list.
+
+Save each stage's written output in the project repo under `docs/<stage>/`
+so decisions are traceable.
+
+## Other kinds of projects
+
+I also do **marketing, branding, video and social media** work. I don't
+have a set process for these yet. Ask what the goal and deliverable are,
+propose a light approach, and note what worked so a process can emerge.
+Motion and video skills available: hyperframes (and friends), brag.
 
 ## Working agreements for Claude
 

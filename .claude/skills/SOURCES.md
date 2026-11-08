@@ -36,3 +36,23 @@ Each was copied as-is at the commit below and reviewed before install.
 
 These copies don't update themselves. To refresh one, ask Claude to re-copy
 it from its source repo, review the changes, and update the commit above.
+
+## Motion and video (added 2026-11-08)
+
+| Skill folder | Source repo | Commit | Licence |
+|---|---|---|---|
+| hyperframes, hyperframes-cli, hyperframes-registry, media-use, figma, slideshow, style-sampling, reverse-any-video, remotion-to-hyperframes | github.com/heygen-com/hyperframes (skills/) | 7ad2be9 | Apache-2.0 |
+| brag, brag-slim | github.com/latent-spaces/brag (skills/) | 669ab92 | MIT |
+
+- **hyperframes** turns HTML into video. It runs the `hyperframes` npm tool
+  (`npx hyperframes …`) and needs Node and Chrome; rendering is easiest on
+  your own computer. Start with `/hyperframes`.
+- **media-use** can call HeyGen, Google Gemini, Openverse and Freesound for
+  voice, music and images. Paid ones need your own API keys. It sends
+  anonymous usage stats to PostHog; turn off with `DO_NOT_TRACK=1`.
+- **brag** makes a short launch video for a project, with music and share
+  copy. It bundles 5 music tracks from ende.app (~17 MB). **brag-slim** is the
+  lighter version that needs no hyperframes.
+- HyperFrames also ships as a plugin with auto-update:
+  `/plugin marketplace add heygen-com/hyperframes` then
+  `/plugin install hyperframes@hyperframes`.
