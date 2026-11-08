@@ -47,15 +47,21 @@ Each stage produces a written artifact saved in the project repo
 - **Clarity over cleverness.** One primary action per screen.
 - **Consistency through a system.** Tokens and components, not one-offs.
 
-## Preferences still to capture
+## Preferences
+
+- **Tools:** Claude Design is my main design tool for now.
+- **Spelling:** UK English everywhere (colour, organise, centre).
+- **Tone for client writing:** warm and direct. Friendly, plain and
+  confident, with no fluff.
+- **Deliverables:** Markdown in the project repo is the source of truth.
+  Also publish a Claude artifact when something is worth viewing or sharing,
+  like a brief to send a client, an audit, or a visual board.
+
+## Still to capture
 
 Claude: when one of these comes up, ask Dani and then update this file.
 
-- Tools I use (Figma? FigJam? Webflow? WordPress? Notion?)
 - Visual taste: references, styles I like and dislike
-- Preferred tone for client-facing writing
-- Language/spelling (UK or US English)
-- How I like deliverables formatted (Markdown, Google Docs, slides)
 
 ## Keeping this memory up to date
 
