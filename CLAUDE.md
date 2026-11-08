@@ -47,6 +47,19 @@ have a set process for these yet. Ask what the goal and deliverable are,
 propose a light approach, and note what worked so a process can emerge.
 Motion and video skills available: hyperframes (and friends), brag.
 
+## Basic rules (always, every project)
+
+1. **Memory lives in Markdown files, never only in the chat.** Anything worth
+   remembering (preferences, decisions, plans, client facts, progress) is
+   written to an `.md` file straight away and committed: how-I-work things
+   here in dani-studio, project things in that project's repo (its
+   `CLAUDE.md` or `docs/`). Assume the chat will be forgotten.
+2. **Plan → ask → stop.** Before doing work, write a short plan and ask me
+   the questions you need answered. Then stop and wait for my answers.
+3. **Double-check before and after.** Before running each step, check it
+   against the plan; after, verify the result (re-read the file, test the
+   link, check the output) and say plainly what was checked and what wasn't.
+
 ## Working agreements for Claude
 
 - **Ask before assuming.** If a client fact is unknown, ask or mark it
