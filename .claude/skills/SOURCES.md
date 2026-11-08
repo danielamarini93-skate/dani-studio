@@ -56,3 +56,28 @@ it from its source repo, review the changes, and update the commit above.
 - HyperFrames also ships as a plugin with auto-update:
   `/plugin marketplace add heygen-com/hyperframes` then
   `/plugin install hyperframes@hyperframes`.
+
+## SEO and dev workflow (added 2026-11-08)
+
+| Skill folder | Source repo | Commit | Licence |
+|---|---|---|---|
+| seo, seo-* (33 skills) + `.claude/agents/seo-*.md` (20 agents) | github.com/AgriciDaniel/claude-seo | 6be93f4 | MIT |
+| brainstorming, writing-plans, executing-plans, systematic-debugging, test-driven-development, verification-before-completion, and 9 more | github.com/obra/superpowers (skills/) | 22f0b46 | MIT |
+
+- **claude-seo** was installed the way its own manual installer does it:
+  shared scripts, data and schema live in `seo/`, and plugin paths were
+  rewritten to `$HOME/.claude/skills/seo/…`. That's why
+  `scripts/install-local.sh` must have been run (locally once, or at the start
+  of a cloud session). First use runs `claude-seo setup`, which installs its
+  Python packages and Chromium.
+  - Start with `/seo` (orchestrator) or `/seo-audit`.
+  - Free: crawling, technical, content, schema, sitemap, images, local.
+  - Need your own API keys: Google (Search Console, GA4, PageSpeed), Bing,
+    Ahrefs, DataForSEO, SE Ranking, Moz, Firecrawl, Matomo, Profound.
+  - Its schema-validation hook was **not** wired up (manual installs don't).
+- **superpowers** is a software-development workflow (plan, test-first,
+  debug, review). Its SessionStart hook, which makes Claude check skills
+  before *every* reply, was **not** installed, so it won't override Dani's
+  own process. For the full plugin with hook:
+  `/plugin marketplace add obra/superpowers-marketplace` then
+  `/plugin install superpowers@superpowers-marketplace`.

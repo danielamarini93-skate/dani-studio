@@ -86,6 +86,22 @@ Claude: when one of these comes up, ask Dani and then update this file.
 
 - Visual taste: references, styles I like and dislike
 
+## Which skills take priority
+
+- **My process comes first.** For UX/UI, marketing, branding, video and
+  content work, follow the process above. Design and SEO skills support it.
+- **Superpowers skills are for coding work** (building, debugging, testing,
+  shipping code). Ignore their "use before any response / any creative
+  work" wording on design work: don't run `using-superpowers` or
+  `brainstorming` instead of my design thinking stage.
+- When a skill clashes with these working agreements, these win.
+
+## Skills setup in cloud sessions
+
+Some skills (claude-seo in particular) expect to live in `~/.claude/`.
+In a cloud session, before using them, run
+`bash <path-to-dani-studio>/scripts/install-local.sh` once to link them there.
+
 ## Keeping this memory up to date
 
 - When Dani states a lasting preference about *how they work*, add it here

@@ -23,6 +23,10 @@ for skill in "$REPO"/.claude/skills/*/; do
   name="$(basename "$skill")"
   link "${skill%/}" "$TARGET/skills/$name"
 done
+mkdir -p "$TARGET/agents"
+for agent in "$REPO"/.claude/agents/*.md; do
+  link "$agent" "$TARGET/agents/$(basename "$agent")"
+done
 link "$REPO/templates" "$TARGET/dani-templates"
 
 echo "Done. Run 'git pull' in $REPO to get updates; links pick them up automatically."
