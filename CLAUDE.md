@@ -123,11 +123,13 @@ push/pull, default branch.
   Also publish a Claude artifact when something is worth viewing or sharing,
   like a brief to send a client, an audit, or a visual board.
 
-## Still to capture
+## Visual taste
 
-Claude: when one of these comes up, ask Dani and then update this file.
-
-- Visual taste: references, styles I like and dislike
+- **Craft, minimal, straight to the point.** Uncrowded first screens: one message, one primary action.
+- Above the fold must be instantly clear; cut stickers, badges and secondary buttons before adding more.
+- Open to bold brand moves (extra accent colours, shades of black and grey) when they carry meaning.
+- Likes video in heroes when the subject is physical and visual.
+- (Still to capture: reference sites and styles I dislike.)
 
 ## Which skills take priority
 
