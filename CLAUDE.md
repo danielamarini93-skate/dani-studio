@@ -139,6 +139,13 @@ push/pull, default branch.
   shipping code). Ignore their "use before any response / any creative
   work" wording on design work: don't run `using-superpowers` or
   `brainstorming` instead of my design thinking stage.
+- **Julian's design skills** (`design-brief`, `information-architecture`, `design-tokens`, `brief-to-tasks`,
+  `grill-me`, `design-flow`, `jo-design-review`, `jo-frontend-design`) are tools *inside* my stages, not a
+  replacement: e.g. `grill-me` to stress-test a brief, `information-architecture` for the page map,
+  `design-tokens` in design build. Don't run `design-flow` or `design-brief` instead of `/design-thinking`.
+  Save their outputs in `docs/design-*`, not `.design/`.
+- **Visual skills:** `canvas-design` (posters, static art as PNG/PDF) and `graphic-designer` (composition,
+  hierarchy, typography) support branding and social work.
 - When a skill clashes with these working agreements, these win.
 
 ## Skills setup in cloud sessions
