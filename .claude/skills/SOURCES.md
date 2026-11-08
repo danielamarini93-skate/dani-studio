@@ -79,5 +79,4 @@ it from its source repo, review the changes, and update the commit above.
   debug, review). Its SessionStart hook, which makes Claude check skills
   before *every* reply, was **not** installed, so it won't override Dani's
   own process. For the full plugin with hook:
-  `/plugin marketplace add obra/superpowers-marketplace` then
-  `/plugin install superpowers@superpowers-marketplace`.
+  `/plugin install superpowers@claude-plugins-official`.
