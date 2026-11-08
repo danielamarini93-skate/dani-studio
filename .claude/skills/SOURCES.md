@@ -80,3 +80,16 @@ it from its source repo, review the changes, and update the commit above.
   before *every* reply, was **not** installed, so it won't override Dani's
   own process. For the full plugin with hook:
   `/plugin install superpowers@claude-plugins-official`.
+
+## Design process and visual skills (added 2026-11-08, Dani's request)
+
+| Skill folder | Source repo | Commit | Licence |
+|---|---|---|---|
+| canvas-design | github.com/ComposioHQ/awesome-claude-skills (canvas-design) | be2a406 | Apache-2.0 (LICENSE.txt; bundled fonts under OFL) |
+| design-brief, design-flow, design-tokens, information-architecture, brief-to-tasks, grill-me, jo-design-review, jo-frontend-design | github.com/julianoczkowski/designer-skills | c259656 | Apache-2.0 |
+| graphic-designer | github.com/aicodedecode/awesome-muse-skills (skills/graphic-designer) | faf37c0 | MIT |
+
+- Found via Julian Oczkowski's Medium article "7 Claude Code design skills that follow a real design process" and skillsdirectory.com (aicodedecode-graphic-designer). Both pages were unreachable from the session, so the repos were found on GitHub.
+- Reviewed before install: plain instructions only, no scripts, no network calls (jo-design-review asks for a localhost URL to look at a running build).
+- **Renamed to avoid clashes** with existing skills: Julian's `design-review` → `jo-design-review`, `frontend-design` → `jo-frontend-design` (the `name:` field and the references in design-flow, brief-to-tasks and design-brief were updated). Dani's own `design-review` and Anthropic's `frontend-design` are unchanged.
+- Julian's skills save to `.design/<feature>/` by default; in Dani's projects, outputs go to `docs/design-thinking|build|review/` instead.
