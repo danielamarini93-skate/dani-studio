@@ -26,7 +26,9 @@ Then ask Dani, in one message, only what's still unknown:
    - Preliminary **audit** of what exists: UX (a heuristic review by Claude), accessibility
      (`accessibility-scan` / `accessibility-audit`), SEO (`seo-audit`)
    - **Competitor analysis**: which competitors (Dani's list, or Claude proposes 3–6 plus 1–2 best-in-class from other sectors)
-   - **Mobbin research**: which flows or screens (onboarding, checkout, booking, pricing…)
+   - **Mobbin research**: iOS or web, which screens, flows or website sections
+     (onboarding, checkout, booking, pricing…), and whether to save the picks to
+     a Mobbin collection
    - **Personas / proto-personas**
 5. **Depth and timing:** quick (one sitting) or thorough?
 6. **Concept focus:** which page or flow should the HTML concept show?
@@ -68,17 +70,33 @@ Comparison table, then: **table stakes** (what users will expect),
 Save to `docs/design-thinking/competitors.md`.
 
 ### Mobbin research (if chosen)
-Mobbin needs Dani's login, so use **Claude in Chrome** (Dani's own Chrome,
-already signed in). Load the `chrome-browser` skill first.
-1. Agree the search list: apps, flows and screens to look at.
-2. Open a new tab, search Mobbin, and take screenshots of the relevant screens.
-3. Save screenshots to `docs/design-thinking/mobbin/` when the tool allows
-   saving; otherwise record app, screen name and Mobbin link for each.
-4. Write `docs/design-thinking/mobbin.md`: per flow, the patterns seen,
-   what works and why, what to borrow, and what to avoid.
+**First choice: the Mobbin connector** (tools `search_screens`,
+`search_flows`, `search_sections`, plus `list_collections`,
+`get_collection_contents`, `create_collection`, `save_content`). It works in
+cloud sessions too.
+1. Agree the search list in the intake: platform (`ios` or `web`), and the
+   screens, flows or website sections to look at (e.g. "radio guide app
+   onboarding", "agency pricing section"). One screen, flow or section per
+   search; include the kind of app.
+2. If Dani already has a Mobbin collection for this, read it first with
+   `get_collection_contents` (including the team's comments).
+3. Search, and **look at the returned images**: never describe a screen from
+   its metadata alone.
+4. Cite every screen you mention as a link to its `mobbin_url`. Image links
+   expire after 30 days, so download the high-res `image_url` of the key
+   screens into `docs/design-thinking/mobbin/` (if the download is blocked,
+   keep the `mobbin_url` links and say so).
+5. If a result includes an `ai_usage_notice`, show its text word for word.
+6. Only save to a Mobbin collection or add comments **if Dani asked for it**
+   in the intake (offer: "save the picks to a collection for this project?").
+7. Write `docs/design-thinking/mobbin.md`: per flow or screen type, the
+   patterns seen, what works and why, what to borrow, and what to avoid,
+   with links.
 
-If Claude in Chrome isn't available (for example in a cloud session), say so
-and offer: run it later from the desktop app, or Dani shares screenshots.
+**Fallback: Claude in Chrome**, if the connector isn't available. Load the
+`chrome-browser` skill, search Mobbin in Dani's signed-in Chrome, take
+screenshots, and record app, screen and link for each. If neither is
+available, say so and ask Dani to share screenshots.
 
 ### Personas (if chosen)
 2–4 max. Call them **proto-personas** if not based on real research, and

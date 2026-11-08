@@ -28,7 +28,7 @@ ahead: if an earlier stage is missing, say so and offer to do it first.
 Each command asks me questions, writes a plan, waits for my OK, then follows it.
 
 1. **`/design-thinking`**: brief → strategy → research (competitor analysis,
-   Mobbin research via Claude in Chrome, and sometimes a preliminary audit).
+   Mobbin research via the Mobbin connector, and sometimes a preliminary audit).
    *Output:* written summary + **a quick HTML concept as an artifact**.
 2. **`/design-build`**: the concept becomes the real design in
    **Claude Design**, following the project's design system, refined with the
@@ -125,3 +125,8 @@ In a cloud session, before using them, run
 - Keep this file short. Move long reference material into `templates/`.
 - Skills live in `.claude/skills/`. Dani builds them as needed; don't add
   skills unless Dani asks.
+- **Changing skills: try in the project first, then bring it home.** When a
+  skill needs changing during project work, make and test the change in that
+  project (note it in the project's `CLAUDE.md` or `docs/`). Once it's proven,
+  copy the improvement back into dani-studio so every project gets it, and
+  commit it here.
