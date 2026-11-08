@@ -62,6 +62,34 @@ Motion and video skills available: hyperframes (and friends), brag.
    against the plan; after, verify the result (re-read the file, test the
    link, check the output) and say plainly what was checked and what wasn't.
 
+## How we use GitHub (every project)
+
+Do this without being asked. Dani is learning GitHub, so guide as you go.
+
+**Each piece of work**
+1. Start from the latest `main`, on a fresh branch (cloud sessions provide one).
+2. Commit in small steps with clear messages; push often.
+3. When the piece is done, open a **pull request** with a plain-English
+   summary: what changed, why, and what to check.
+   - **One PR per process stage** (`/design-thinking`, `/design-build`,
+     `/design-review`); one PR per task for anything outside the process.
+4. **Merging:** merge it yourself when it's small (memory, docs, small
+   fixes, skill tweaks). For design deliverables or anything big, share the
+   PR link and wait for Dani's OK.
+5. After merging, check `main` has the work and say what's next.
+
+**First time in a repo**: check `main` is the default branch and suggest
+switching on *Settings → General → Automatically delete head branches*.
+Sessions can't change repo settings or delete branches, so give Dani
+click-by-click steps for those.
+
+**Never without asking**: delete anything, force-push, or rewrite history.
+
+**Explaining**: explain a GitHub step only the first time it comes up, in one
+line, then add it to the list below.
+Already explained: repository, commit, branch, merge, pull request,
+push/pull, default branch.
+
 ## Working agreements for Claude
 
 - **Ask before assuming.** If a client fact is unknown, ask or mark it
