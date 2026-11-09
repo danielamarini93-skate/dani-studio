@@ -129,6 +129,7 @@ push/pull, default branch.
 - Above the fold must be instantly clear; cut stickers, badges and secondary buttons before adding more.
 - Open to bold brand moves (extra accent colours, shades of black and grey) when they carry meaning.
 - Likes video in heroes when the subject is physical and visual.
+- **No repetition, no filler.** Every word must help the user or SEO; say each fact once per screen (e.g. the address or "WhatsApp" icon + word twice). Cut labels that add nothing.
 - (Still to capture: reference sites and styles I dislike.)
 
 ## Which skills take priority
