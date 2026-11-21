@@ -133,6 +133,10 @@ push/pull, default branch.
 - **No repetition, no filler.** Every word must help the user or SEO; say each fact once per screen (e.g. the address or "WhatsApp" icon + word twice). Cut labels that add nothing.
 - (Still to capture: reference sites and styles I dislike.)
 
+## Check the skills first (every chat, every project)
+
+Before starting any piece of work (in Claude Code and in Claude chat), look at the skills, plugins and connectors that are installed and use every one that fits the task at that moment: e.g. SEO, GEO, accessibility, design, content, video. Say in one line which ones you're using and why. If one would help but isn't connected or signed in, say so. (Dani, 21 Nov 2026)
+
 ## Which skills take priority
 
 - **My process comes first.** For UX/UI, marketing, branding, video and
