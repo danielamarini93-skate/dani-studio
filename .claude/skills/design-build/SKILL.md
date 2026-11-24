@@ -55,6 +55,14 @@ with checkboxes; which skills will be used where; open questions.
   - `ui-ux-pro-max`: styles, palettes, font pairings, UX rules
   - `bencium-controlled-ux-designer`: consistent, ask-before-deciding work
   - `bencium-innovative-ux-designer`: when Dani wants it bolder and original
+  - Charts and data: `bklit-ui` (with `bklit-ui-design` for styling)
+  - Ready-made React components: `install-kokonutui-component`
+- **Motion**, where it serves a purpose: `motion` by default (React, Vue,
+  vanilla JS, CSS springs), `animejs` if the project already uses Anime.js.
+  Always respect reduced motion.
+- **Polish pass with `unslop`** once the screens are built: remove anything
+  that looks AI-generated (gradients, glows, emoji labels, uneven spacing)
+  and give the design its own character, staying inside the design system.
 - Accessibility as you go: contrast, readable sizes, focus states, tap
   targets ≥ 44px, clear labels.
 - Tick each item in `plan.md`; commit as you go. After each screen, compare

@@ -47,6 +47,11 @@ every screen? Anything in scope missing, or out of scope added?
 Against the Claude Design design system: tokens (colour, type, spacing)
 used correctly, components consistent, no one-offs. Hierarchy, alignment,
 copy quality and UK spelling, all states designed. Check at phone width first.
+Run `unslop` as a check for AI-looking tells (purple gradients, glows,
+gradient text, emoji labels, "New ✨" badges, uneven spacing) and list what
+it finds as fixes. If motion is used, check it has a purpose, respects
+reduced motion and animates only transform and opacity (`motion` skill's
+performance audit can help).
 
 ### Accessibility
 WCAG 2.2 AA. On a design: contrast, text sizes, tap targets, focus and

@@ -93,3 +93,25 @@ it from its source repo, review the changes, and update the commit above.
 - Reviewed before install: plain instructions only, no scripts, no network calls (jo-design-review asks for a localhost URL to look at a running build).
 - **Renamed to avoid clashes** with existing skills: Julian's `design-review` → `jo-design-review`, `frontend-design` → `jo-frontend-design` (the `name:` field and the references in design-flow, brief-to-tasks and design-brief were updated). Dani's own `design-review` and Anthropic's `frontend-design` are unchanged.
 - Julian's skills save to `.design/<feature>/` by default; in Dani's projects, outputs go to `docs/design-thinking|build|review/` instead.
+
+## Motion, charts, components, polish (added 2026-11-24)
+
+| Skill folder | Source | Commit | Licence |
+|---|---|---|---|
+| unslop | github.com/heydamir/unslop (skills/unslop) | 620163e | CC BY 4.0 (credit heydamir) |
+| motion | github.com/motiondivision/ai-kit (plugins/motion/skills/motion) | 1e42494 | MIT |
+| bklit-ui, bklit-ui-design, bklit-ui-migrate, bklit-ui-vocabulary | github.com/bklit/bklit-ui (skills/) | 76299da | MIT |
+| install-kokonutui-component | github.com/kokonut-labs/kokonutui (public/.well-known/agent-skills/install-component) | 7e4bd77 | MIT |
+| animejs | Written by Claude for Dani from the official Anime.js README and docs; Anime.js publishes no skill | — | — |
+
+- **motion** works best with Motion's free MCP server (`https://mcp.motion.dev`),
+  added by Dani as a claude.ai connector. Without it, the skill still gives
+  best practices but can't search Motion's docs and examples. Motion+ (paid)
+  is not set up.
+- **unslop** includes scripts that take local screenshots of a page and
+  make a short before/after video (needs Node, a browser and ffmpeg).
+- **bklit** and **kokonutui** install React components through the shadcn
+  CLI (`npx shadcn@latest add @bklit/...` / `@kokonutui/...`), so they fit
+  coded projects. KokonutUI Pro (paid) is not set up.
+- Not installed: the repos' internal developer skills (bklit `.agents/`,
+  kokonutui `.agents/`, which are copies of Vercel skills already here).
