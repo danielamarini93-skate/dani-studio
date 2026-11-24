@@ -48,6 +48,8 @@ I also do **marketing, branding, video and social media** work. I don't
 have a set process for these yet. Ask what the goal and deliverable are,
 propose a light approach, and note what worked so a process can emerge.
 Motion and video skills available: hyperframes (and friends), brag.
+Web animation: `motion` (default) and `animejs`. Charts: `bklit-ui`.
+Polish against AI-looking design: `unslop`.
 
 ## Basic rules (always, every project)
 
