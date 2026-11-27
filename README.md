@@ -9,6 +9,7 @@ CLAUDE.md                 who I am, my process, principles, working agreements
                           + third-party skills (listed in SOURCES.md)
 .claude/agents/           helper agents used by the SEO skills
 templates/                brief, strategy, research plan
+playground/               small projects and quick tries (+ ideas.md)
 scripts/install-local.sh  link all of this into ~/.claude on my computer
 ```
 
