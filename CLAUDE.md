@@ -168,6 +168,9 @@ In a cloud session, before using them, run
   and commit it to the `dani-studio` repo.
 - When it's about a *specific client*, put it in that project's repo instead.
 - Keep this file short. Move long reference material into `templates/`.
+- **Small projects and quick tries** that don't need their own repo go in
+  `playground/` (one folder each, `YYYY-MM-short-name`). Unstarted ideas go
+  in `playground/ideas.md`.
 - Skills live in `.claude/skills/`. Dani builds them as needed; don't add
   skills unless Dani asks.
 - **Changing skills: try in the project first, then bring it home.** When a
